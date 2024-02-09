@@ -9,7 +9,7 @@ Voici quelques captures d'écran de mon site web :
 
 ### Bureau
 
-![Medz Desktop Demo](C:\Users\mbena\OneDrive\Bureau\developpement_web_portfolio\v_card_portfolio\images\visuel_ensemble.png "Capture d'écran Bureau")
+![Medz Desktop Demo](C:/Users/mbena/OneDrive/Bureau/developpement_web_portfolio/portfolio/images/visuel_ensemble.png "Capture d'écran Bureau")
 
 ### Mobile
 
