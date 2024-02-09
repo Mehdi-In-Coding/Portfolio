@@ -13,7 +13,7 @@ Voici quelques captures d'écran de mon site web :
 
 ### Mobile
 
-![Medz Mobile Demo](C:\Users\mbena\OneDrive\Bureau\developpement_web_portfolio\v_card_portfolio\images\visuel_projet.png "Capture d'écran Mobile")
+![Medz Mobile Demo](C:/Users/mbena/OneDrive/Bureau/developpement_web_portfolio/portfolio/images/visuel_projet.png "Capture d'écran Mobile")
 
 ## Contact
 
