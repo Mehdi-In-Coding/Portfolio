@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mehdi Benayed - Portfolio</title>
+
+  <!--
+    - favicon - photo du site web
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - lien css
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - Style de la police sur la NAVBAR
+  -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Mehdi Benayed" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mehdi Benayed">Mehdi Benayed</h1>
+
+          <p class="title">Etudiant en BUT SD - IUT Rives de Seine</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Voir plus</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:mbenayed09@gmail.com" class="contact-link">mbenayed09@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Téléphone</p>
+
+              <a href="tel:+33695772318" class="contact-link">(+33) 6 95 77 23 18</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Date d'anniversaire</p>
+
+              <time datetime="1982-06-23">9 Sept. 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Emplacement</p>
+
+              <address>Noisiel, Seine-et-Marne, France</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://discord.com/users/samourai3617" class="social-link" target="_blank">
+              <ion-icon name="logo-Discord"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mehdi-benayed" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/b9_mehdi/" class="social-link" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Moi</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Carrière</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CV</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="moi  active" data-page="moi">
+
+        <header>
+          <h2 class="h2 article-title">À propos de moi</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Bonjour, je suis Mehdi Benayed, j'ai 19 ans. J'étudie les statistiques,
+             la conception, l'analyse des données et de projets dans le domaine de la Data à l'Université Rives de Seine.
+              Mon objectif est de devenir developper Front-End dans de grandes entreprises.
+               Ainsi, j'accumulerai de l'expérience que je pourrai mettre à 
+               profit dans le futur.
+          </p>
+
+          <p>
+            Pour ce faire, je dois constamment vérifier que les idées sont fonctionnelles et conviviales,
+            mais en même temps attrayantes. De plus, j'ajoute ma touche personnelle dans la forme et 
+            je m'assure que les solutions sont accrocheuses et faciles à utiliser.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Ce que je fais</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Portfolio</h4>
+
+                <p class="service-item-text">
+                  Création de ce site Web e-portfolio, d'un projets e-commerce shopify et d'un site e-travel website [en cours ..]
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programmation Statistiques</h4>
+
+                <p class="service-item-text">
+                  Développement de qualité des logiciels (Rstudio, SQL, Tableau et Excel).
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Organisation</h4>
+
+                <p class="service-item-text">
+                  Au cours de mes projets, j'améliorais ma capacité à travailler en contactant différentes équipes 
+                  via WhatsApp, Discord et Outlook vis-à-vis des professeurs.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photographie</h4>
+
+                <p class="service-item-text">
+                  J'aime beaucoup prendre des photos de nouveaux environnements, par exemple des Pays-Bas, de la
+                  Suisse, mais aussi d'autres villes de France lorsque je voyage.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - témoignages de mes anciens professeurs
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Témoignages</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="N. ASSOUL" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>N. ASSOUL</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    J'ai eu Mehdi comme élève en classes de 1re et de terminale.
+                     Il s'est montré sérieux et investi. Son travail est régulier, il est curieux et toujours 
+                     animé d'un souci de bien faire. Ses résultats étaient très satisfaisants.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    ___________________________________________________________________________
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    _________________________________________________
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    _______________________________________________
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - témoignages de mes anciens professeurs
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14"></time>
+
+              <div data-modal-text>
+                <p>
+                  
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - Centres d'intérêts
+        -->
+
+        <section class="clients">
+          <h3 class="h3 clients-title">Centres d'intérêts</h3>
+          <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                  <a href="https://u-paris.fr/bibliotheques/bu-iut/">
+                      <img src="https://th.bing.com/th/id/OIP.ShJthiSWvhROL0syjEvq5gHaE7?pid=ImgDet&rs=1" width="400" length="350" alt="client logo">
+                  </a>
+                  <figcaption style="text-align: center;">Lecture à la BU et débats à l'IUT</figcaption>              </li>
+              
+              <li class="clients-item">
+                  <a href="https://wildrift.leagueoflegends.com/fr-fr/">
+                      <img src="https://gamingsection.net/wp-content/uploads/2021/01/Wild-Rift-Guide-du-debutant-de-Mobile-League-of-Legends.png" width="400" length="350" alt="client logo">
+                  </a>
+                  <figcaption style="text-align: center;">Passion pour le jeu Wild Rift</figcaption>
+                </li>
+
+            <li class="clients-item">
+              <a href="https://www.chess.com/fr">
+                <img src="https://us.123rf.com/450wm/photochicken/photochicken1911/photochicken191100083/133027435-%C3%A9checs-d-or-elite-business-team-leader-couleur-dor%C3%A9e-se-sentant-luxueusement-riche-en-image.jpg?ver=6" alt="client logo">
+              </a>
+              <figcaption style="text-align: center;">Joue aux échecs dans les transports (+1500 elo)</figcaption>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.lemonde.fr/">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/004/216/831/original/3d-world-news-background-loop-free-video.jpg"
+                width="400px"  length= "350px" alt="client logo">
+              </a>
+              <figcaption style="text-align: center;">Lit les actualités hebdomadaires</figcaption>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://maps.app.goo.gl/fi3YrhBv8UHwKGtdA">
+                <img src="https://cdn-europe1.lanmedia.fr/var/europe1/storage/images/europe1/guide-shopping/notre-selection-de-cinq-paires-de-chaussures-de-course-a-pieds-pour-homme-4171049/59883210-1-fre-FR/Notre-selection-de-cinq-paires-de-chaussures-de-course-a-pieds-pour-homme.jpg" alt="client logo">
+              </a>
+              <figcaption style="text-align: center;">Footing au Parc de Noisiel (6km)</figcaption>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://soundcloud.com/soundcloud">
+                <img src="https://i.blogs.es/334522/apple-music-icon-001/1024_2000.jpg" alt="client logo">
+              </a>
+              <figcaption style="text-align: center;">Écoute de la musique lors de révisions</figcaption>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Carrière
+      -->
+
+      <article class="carrière" data-page="carrière">
+
+        <header>
+          <h2 class="h2 article-title">Formations | Expériences</h2>
+        </header>
+
+        <!--
+          Expérience
+        -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Expérience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Job D'été chez CASANOVA</h4>
+
+              <span>Juin-Août 2023</span>
+
+              <p class="timeline-text">
+                Préparateur de commandes, Gestions de commandes et notions de Logistiques.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+        <!--
+          Formations
+        -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Formations</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Université Paris - Rives de Seine | BUT Sciences des données</h4>
+
+              <span>2022 — 2025 (en cours d'acquisition)</span>
+
+              <p class="timeline-text">
+                Spécialisation Analyse et Traitement statistiques des données.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Formation UDEMY | Noisiel, France</h4>
+
+              <span>Juill. 2022 - 2023</span>
+
+              <p class="timeline-text">
+                Réalisation de ma formation python à domicile sur UDEMY. 15 projets quiz et exercices effectués
+                (Web, Data, Scripting et Bots). Formation de Thibault Houdon | Développeur Python.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Diplôme du Baccalauréat Technologique | Lycée Polyvalent Simone Veil</h4>
+
+              <span>24 août 2022</span>
+
+              <p class="timeline-text">
+                Obtention du Baccalauréat Technologique STI2D et enseignement spécifique "Système d'Information et Numérique" mention
+                ASSEZ BIEN.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            
+        <!--
+          MISE EN SITUATION PROFESSIONNELLE À L'IUT
+        -->
+            <h3 class="h3">MISE EN SITUATION PROFESSIONNELLE À L'IUT</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Enquête évaluation du bilan carbone des membres de l'IUT</h4>
+
+              <span>Nov.22 - Janv.23</span>
+
+              <p class="timeline-text">
+                Rédaction du questionnaire et saisie du logiciel LimeSurvey. Traitement de la base de données,
+                Excel. Analyse statistiques et présentation orale des résultats avec support visuel,
+                datavisualisation et PowerPoint en équipe de 4 membres.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Projet location de DVD</h4>
+
+              <span>17 janv. 2023</span>
+
+              <p class="timeline-text">
+                Aide à la décision pour l'implémentation d'un magasin de loueur de DVD. Extraction des données clients
+                pertinentes avec SQL, nettoyage des données et création d'un Reporting sous Excel à l'aide de 3 MOE.
+              </p>
+              
+            </li>
+            
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Analyses statistiques & Soft Skills</h4>
+
+              <span>fev.22 - Juin.22</span>
+
+              <p class="timeline-text">
+                Analyses des statistiques Univariées/Bivariées liées au système d'étude en équipe.
+                Utilisations de tableaux de contingences et vérification du test d'hypothèse de l'ANOVA.
+                Nettoyage et analyse des données (Excel + Rstudio). Création d'indicateurs, puis enfin,
+                Reporting sous SQL.  
+              </p>
+              
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <!--
+          Compétences
+        -->
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Mes compétences</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Rstudio</h5>
+                <data value="87.50">87.50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 87.50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Office</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <!--
+          Création de la navbar
+        -->
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="select-item">
+              <button data-select-item>Python/Powerbi</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Tableau</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Excel</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Rstudio</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Rshiny</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>SGBD</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Rstudio</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+
+            <li class="project-item active" data-filter-item data-category="python/powerbi">
+              <a href="https://up75-my.sharepoint.com/:p:/g/personal/mehdi_benayed_etu_u-paris_fr/EcXkUA5MSiRAhBZHBsvMQA4Bqu4xCT8ZlUVVQtOu5mlo6A?e=21rax1" target="_blank">
+                  <figure class="project-img">
+                      <div class="project-item-icon-box">
+                          <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+                      <img src="/Users/mbena/OneDrive/Images/webscraping.PNG" alt="PROJET WEBSCRAPING" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">PROJET WEBSCRAPING</h3>
+          
+                  <p class="project-category">Python</p>
+              </a>
+          </li>
+
+          <li class="project-item active" data-filter-item data-category="python/powerbi">
+            <a href="https://up75-my.sharepoint.com/:p:/g/personal/mehdi_benayed_etu_u-paris_fr/Ed--LhZboGRMmNIKd7uQHoYBaagwhuvn9WMVZ6qIjw1q1w?e=etg4mf" target="_blank">
+                <figure class="project-img">
+                    <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                    <img src="/Users/mbena/OneDrive/Images/lol-champions-8.jpg" alt="PROJET Statistique de données (pandas, seaborn, matplotlib)" loading="lazy">
+                </figure>
+                <h3 class="project-title">PROJET League Of Legends (data cleaning, analyses, matplotlib ..)</h3>
+        
+                <p class="project-category">Python/Powerbi</p>
+            </a>
+        </li>
+
+            <li class="project-item active" data-filter-item data-category="rstudio">
+              <a href="https://up75-my.sharepoint.com/:p:/g/personal/mehdi_benayed_etu_u-paris_fr/EXVthBLD2slNmArzOoJfmckBwjZp1BzFeFg4LewHXzd0VQ?e=w6x5j8" target="_blank">
+                  <figure class="project-img">
+                      <div class="project-item-icon-box">
+                          <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+                      <img src="/Users/mbena/OneDrive/Images/sgre.PNG" alt="Big projet étude épidémiologie de patients atteints de pathologies" loading="lazy">
+                  </figure>
+                  <h3 class="project-title">Big projet étude épidémiologie de patients atteints de pathologies</h3>
+          
+                  <p class="project-category">Rstudio</p>
+              </a>
+          </li>
+
+            <li class="project-item  active" data-filter-item data-category="sgbd">
+              <a href="https://up75-my.sharepoint.com/:p:/g/personal/mehdi_benayed_etu_u-paris_fr/EZwJCo5tIaFAqTEpVySoChABlL3K8jKTibe3yu7jl-G_Rg?e=bvIGBj" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="/Users/mbena/OneDrive/Images/Portfolio/aabb.PNG" alt="Projet base de donnée relationnelle" loading="lazy">
+                </figure>
+                <h3 class="project-title">Projet base de donnée relationnelle</h3>
+
+                <p class="project-category">SQL/Excel</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="tableau">
+              <a href="https://up75-my.sharepoint.com/:p:/g/personal/mehdi_benayed_etu_u-paris_fr/Ec1pUnCEraxCoaMzwJe7DEABDvPDE-exSp5eqcceYDsL3A?e=pJe3X8" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/Users/mbena/OneDrive/Images/abc.PNG" alt="Élection présidentielle 2020-2021" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Élection présidentielle 2020-2021</h3>
+
+                <p class="project-category">Tableau</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="rshiny">
+              <a href="https://up75-my.sharepoint.com/:p:/g/personal/mehdi_benayed_etu_u-paris_fr/EYEdIOkohOhMhRdFZ25piukB60s9D7DkDeZOl5KOERr5wg?e=woCai0" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/Users/mbena/OneDrive/Images/shiny.PNG" alt="Mini Projet datavisualisation" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mini Projet datavisualisation</h3>
+
+                <p class="project-category">Rshiny</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="sgbd">
+              <a href="https://up75-my.sharepoint.com/:p:/g/personal/mehdi_benayed_etu_u-paris_fr/EcxfUMDJfWVIj-dAiCHiKt4BocUsOHgNu1hDuk3SLG9D2Q?e=a8Df2G" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/Users/mbena/OneDrive/Images/MCD.PNG" alt="Réalisation d'une base de données, groupe LAC" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Réalisation d'une base de données, groupe LAC</h3>
+
+                <p class="project-category">Access/Looping App</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="rstudio">
+              <a href="https://up75-my.sharepoint.com/:p:/g/personal/mehdi_benayed_etu_u-paris_fr/EQyAbr0f0DVMhoZTeJMskg8BrT2_Q00YADVfRmj05r2QFg?e=wItBAJ" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/Users/mbena/OneDrive/Images/echantillonage.PNG" alt="Projet échantillonnage de 2 pays distincts" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Projet échantillonnage de 2 pays distincts</h3>
+
+                <p class="project-category">Rstudio</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="excel">
+              <a href="https://up75-my.sharepoint.com/:p:/g/personal/mehdi_benayed_etu_u-paris_fr/EWNrYrW5HVNOgN_hURQNWG8Bd3p_EkIkCxYhMGpwr45fdw?e=lHg6eO" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/Users/mbena/OneDrive/Images/sondage_co2.PNG" alt="Sondage de l'émission carbone des membres de l'IUT" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sondage de l'émission carbone des membres de l'IUT</h3>
+
+                <p class="project-category">Excel/LimeSurvey</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="sgbd">
+              <a href="https://up75-my.sharepoint.com/:p:/g/personal/mehdi_benayed_etu_u-paris_fr/EZGxe0We1PRDtGuq8GbVQzcBNkKBoHYoydJK-OQWJMUCQA?e=CZbodf" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="/Users/mbena/OneDrive/Images/olist_brazil.png" alt="Plateforme de commerce électronique brésilienne : Olist" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Plateforme de commerce électronique brésilienne : Olist</h3>
+
+                <p class="project-category">Rstudio</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+      <article class="cv" data-page="cv">
+        <header>
+          <h2 class="h2 article-title">CV</h2>
+        </header>
+        <object data="/Users/mbena\OneDrive\Bureau\CV\CV et candidature stage\CV_Benayed_Mehdi.pdf" type="application/pdf" width="100%" height="600px">
+        </object>
+      </article>
+      
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
